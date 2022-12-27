@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+
+        background-image: linear-gradient(#5f2c82, rgb(2, 202, 136));
+    }
+
+    main {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    section#login {
+        width: 80vw;
+        height: 280px;
+
+    }
+
+    section#login>div#imagem {
+        padding-right: 40px;
+        float: left;
+        width: 20%;
+        height: 80%;
+
+    }
+
+    div#formulario {
+        float: right;
+        width: 68%;
+        padding-left: 40px;
+        
+    }
+
+    .campo {
+        width: 100%;
+    }
+
+    div.campo  .input{
+        width: 46vw;
+        
+    }
+
+    form input[type=submit] {
+
+        width: 100%;
+
+    }
+
+    img#celular {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    body {
+        background-image: linear-gradient(#5f2c82, rgb(2, 202, 136));
+    }
+
+    main {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+
+    section#login>div#imagem {
+
+        width: 45%;
+        height: 350px;
+        float: right;
+
+    }
+
+    div#formulario {
+        float: left;
+        width: 55%;
+    }
+
+    #formulario h1 {
+        font-size: 2em;
+
+    }
+
+    #formulario p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    .campo {
+        width: 100%;
+    }
+
+    .campo input {
+        width: 2250%;
+    }
+
+    form input[type=submit] {
+        width: 100%;
+    }
+
+
+    img#celular {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#pc {
+
+        display: block;
+    }
+
+}

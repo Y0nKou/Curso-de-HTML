@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/*
+    Verde: #49a09d
+    Lilás: #5f2c82
+    #7627D9;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 45%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+
+    display: flex;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+
+}
+
+section#login >#formulario {
+    display: block;
+    padding: 10px;
+}
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p{
+    font-size: 0.9em;
+}
+
+
+.campo{
+    display: block;
+    width: 230px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    background-color:  #5f2c82;
+    border: 2px solid #5f2c82;
+}
+fieldset{
+    border: 0;
+}
+
+.campo label {
+    display: none;
+}
+
+.campo i{
+    color: white;
+    font-size: 1.9em;
+    width: 30px;
+    padding: 5px;
+}
+
+.campo input{
+    
+    background-color: aquamarine;
+    font-size: 0.5em;
+    width: 183px;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    transform: translateY(-11px);
+}
+
+
+input:hover{
+    
+    background-color: white;
+}
+
+
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 230px;
+    height: 40px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #2d6462;
+}
+
+
+a.botao > i {
+    font-size: 0.8em;
+}
+
+
+ a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    text-decoration: none;
+ }
+ 
+ a :hover{
+    background-color: #2d6462;
+   
+}
+
+
+img#celular{display: block;}
+img#tablet{display: none;}
+img#pc{display: none;}
+
+   
