@@ -13,7 +13,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
+body {
     background-color: #5f2c82;
     width: 100vw;
     height: 100vh;
@@ -35,12 +35,12 @@ section#login {
     height: 515px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 45%);
-    transition: width .3s, height .3s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
     border-radius: 20px;
 }
 
-section#login > div#imagem {
+section#login>div#imagem {
 
     display: flex;
     margin: auto;
@@ -50,67 +50,65 @@ section#login > div#imagem {
 
 }
 
-section#login >#formulario {
+section#login>#formulario {
     display: block;
     padding: 10px;
 }
 
-#formulario > h1{
+#formulario>h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-#formulario > p{
+#formulario>p {
     font-size: 0.9em;
 }
 
+fieldset {
+    border: none;
+}
 
-.campo{
+.campo {
     display: block;
-    width: 230px;
+    width: 100%;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    background-color:  #5f2c82;
+    background-color: #5f2c82;
     border: 2px solid #5f2c82;
-}
-fieldset{
-    border: 0;
 }
 
 .campo label {
     display: none;
 }
 
-.campo i{
+.campo i {
     color: white;
-    font-size: 1.9em;
-    width: 30px;
-    padding: 5px;
+    font-size: 2em;
+    width: 40px;
 }
 
-.campo input{
-    
-    background-color: aquamarine;
-    font-size: 0.5em;
-    width: 183px;
-    border: 0;
+div.campo input {
+    font-size: 1em;
+    background-color: #44fff9;
+   width: calc(100% -45px);
+   height: 100%;
+   transform: translateY(-7px);
     border-radius: 8px;
-    padding: 8px;
-    transform: translateY(-11px);
+    border: 0px;
 }
 
-
-input:hover{
-    
+.campo > input:focus-within{
     background-color: white;
+    border: none;
 }
 
 
-form input[type=submit]{
+
+form input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 230px;
+    width: 100%;
     height: 40px;
     background-color: aquamarine;
     color: white;
@@ -119,17 +117,17 @@ form input[type=submit]{
     cursor: pointer;
 }
 
-form input[type=submit]:hover{
+form input[type=submit]:hover {
     background-color: #2d6462;
 }
 
 
-a.botao > i {
+a.botao>i {
     font-size: 0.8em;
 }
 
 
- a.botao {
+a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -142,16 +140,22 @@ a.botao > i {
     border: 1px solid #49a09d;
     border-radius: 7px;
     text-decoration: none;
- }
- 
- a :hover{
-    background-color: #2d6462;
-   
+}
+
+form a.botao:hover {
+    background-color: #44fff9;
+
 }
 
 
-img#celular{display: block;}
-img#tablet{display: none;}
-img#pc{display: none;}
+img#celular {
+    display: block;
+}
 
-   
+img#tablet {
+    display: none;
+}
+
+img#pc {
+    display: none;
+}

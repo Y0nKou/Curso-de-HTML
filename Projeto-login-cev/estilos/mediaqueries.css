@@ -13,12 +13,7 @@
         background-image: linear-gradient(#5f2c82, rgb(2, 202, 136));
     }
 
-    main {
-        position: relative;
-        height: 100vh;
-        width: 100vw;
-
-    }
+    
 
     section#login {
         width: 80vw;
@@ -27,33 +22,21 @@
     }
 
     section#login>div#imagem {
-        padding-right: 40px;
+        
         float: left;
-        width: 20%;
-        height: 80%;
-
+        
+        height: 88%;
+        padding-right: 30px;
     }
 
     div#formulario {
         float: right;
-        width: 68%;
-        padding-left: 40px;
-        
+        width: 65%;
+        padding-left: 30px;
     }
 
-    .campo {
-        width: 100%;
-    }
-
-    div.campo  .input{
-        width: 46vw;
-        
-    }
-
-    form input[type=submit] {
-
-        width: 100%;
-
+    input{
+        width: calc(100% - 45px);
     }
 
     img#celular {
@@ -111,12 +94,9 @@
         margin: 20px 0px;
     }
 
-    .campo {
-        width: 100%;
-    }
-
+   
     .campo input {
-        width: 2270%;
+        width: calc(100% - 45px);
     }
 
     form input[type=submit] {
