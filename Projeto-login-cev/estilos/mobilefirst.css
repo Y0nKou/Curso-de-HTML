@@ -91,7 +91,7 @@ fieldset {
 div.campo input {
     font-size: 1em;
     background-color: #44fff9;
-   width: calc(100% -45px);
+   width: calc(100% - 45px);
    height: 100%;
    transform: translateY(-7px);
     border-radius: 8px;
